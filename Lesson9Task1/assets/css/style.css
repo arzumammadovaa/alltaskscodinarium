@@ -1,0 +1,105 @@
+/* 
+
+h1 Elementin mətn rəngini dəyişdirin - #333.
+h1 Elementin mətnini mərkəzə getirin.
+h1 elementin mentinin herfleri boyuk olsun
+h1 Elementə mətn kölgəsi əlavə edin : 2px 2px 4px rgba(0, 0, 0, 0.5).
+
+*/
+h1{
+    color:#333;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/*
+------
+h2 Elementlərin altını düz, qırmızı rəng və 2px qalınlığinda xett çəkin.
+h2 Elementlərin hər sözü böyük hərflə yazın.
+---
+*/
+h2{
+   
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    -moz-text-decoration-line: underline;
+    -moz-text-decoration-color: red;
+    -moz-text-decoration-style: solid;
+    -moz-text-decoration-thickness: 2px;
+  
+
+}
+
+
+/*
+Paraqraflara 30px mətn abzası əlavə edin ( p).
+Paraqrafların hərf aralığını 1px olaraq təyin edin.
+Paraqrafların sətir hündürlüyünü 1,5-ə təyin edin.
+Paraqraflara 3px söz məsafəsi əlavə edin.
+
+------*/
+
+p{
+    text-indent: 30px;
+    letter-spacing:1px ;
+    line-height: 1.5;
+    word-spacing: 3px;
+
+}
+
+
+
+
+
+/*
+header, main  və  footer elementlərinə border əlavə edin.
+Sərhəd enini 2px olaraq təyin edin.
+Hər bölmə üçün müxtəlif border rənglərindən istifadə edin: header- mavi, main- yaşıl, footer- qara.
+Bütün border üçün solid border üslubundan istifadə edin.
+Main - 10px sərhəd radiusu əlavə edin.
+
+------
+*/
+
+header,main,footer{
+ 
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+header{
+    border-color: blue;
+}
+main{
+    border-color:green;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+footer{
+    border-color:black;
+
+}
+
+
+
+
+
+/*
+img tagi-ne elave edilen seklin eni-300px hundurluyu-400px ve 8px border radius elave edin. */
+img{
+    height: -400px;
+    width: -300px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

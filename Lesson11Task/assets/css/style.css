@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+ 
+
+
+}
+header{
+    background-color:rgba(255, 0, 0, 0.679);
+    color:white;
+ height:100px;
+
+    box-shadow:0.5px 1px 2px red;
+    
+}
+
+
+.item{
+    background-color:white;
+    color:black!important;
+   
+}
+
+.nav-menu-item{
+    list-style-type:none;
+   
+   display:inline;
+}
+
+.nav-link{
+    color:white;
+     text-decoration:none;
+     font-size:30px;
+     padding:20px 35px;
+     line-height:70px;
+}
+.nav-link:hover{
+    background-color:white;
+    color:black;
+}
+
+.sectionone{
+    background-color:rgba(255, 0, 0, 0.679);
+  text-align:center;
+  color:white;
+ 
+  height:660px;
+}
+
+.section-header{ 
+    padding-top:200px;
+    font-size:90px;
+}
+
+.section-sub{
+    font-size:42px;
+    margin-top:27px; 
+}
+.section-button{
+    background-color:black;
+    padding:24px 56px;
+    color:white;
+    font-size:23px; 
+    margin-top:27px;
+}
+.section-button:hover{
+    background-color:white;
+    color:black;
+    border:1px solid white;
+}
+.sectiontwo,.sectionthree{
+margin-left:100px;
+display:flex;
+
+height:700px;
+}
+.sectionthre{
+    background-color:rgba(157, 157, 157, 0.221);
+}
+.sectiontwo-header,.sectionthree-header{
+    font-size:45px;
+    margin-top:40px;
+
+    margin-bottom:50px;
+}
+.sectiontwo-descrition,.sectionthree-descrition{
+    font-size:30px;
+    margin-top:34px;
+    margin-bottom:35px;
+}
+.sectiontwo-sub,.sectionthree-sub{
+    font-size:25px;
+    color:rgba(128, 128, 128, 0.764); 
+}
+.section-img{
+    width:200px;
+    height:200px;
+}
+.about{
+    margin-top:110px;
+}
+.sectionfour{
+    background-color:grey;
+    height:250px;
+    font-size:40px;
+    text-align:center;
+    line-height:250px;
+    color:white;
+
+}
+
+footer{
+    color:rgb(102, 102, 102);
+    font-size:23px;
+    height:300px;
+ 
+    text-align:center;
+}
+.about-icon{
+    width:35px;
+    height:35px;
+}
+.about-sub{
+    margin-top:50px;
+}
+.footer-link{
+    color:rgb(93, 92, 92);
+}
