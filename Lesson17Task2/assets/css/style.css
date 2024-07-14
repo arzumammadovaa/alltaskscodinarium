@@ -1,0 +1,160 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+body{
+     background-color:#fafafa;
+}
+
+h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.box{
+    background-color: #46B5D1;
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    border-radius: 40px;
+  
+}
+
+.sectionone{
+    margin: 0 auto;
+    display: flex;
+    padding-top: 60px;
+    max-width: 1200px;
+}
+
+svg{
+    color: beige;
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+.phone, .telegram, .earth{
+    max-width: 300px;
+    margin-left: 75px;
+}
+
+.location{
+    max-width: 300px;
+}
+
+a{
+    color: #46B5D1;
+    text-decoration: none;
+}
+
+span{
+    color: #666666;
+}
+
+.sectionone p{
+    font-size: 16px;
+    margin: 20px;
+}
+
+figure{
+    width: 600px;
+    height: 650px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.section{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    background-color: white;
+
+}
+
+.left-side{
+   padding: 60px; 
+width:700px;
+}
+
+form{
+    padding-top: 30px;
+}
+
+
+h2{
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+label,.textarea{
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    
+}
+
+.email{
+    margin-left: 30px;
+}
+.subjectt,.textarea{
+    margin-top: 30px;
+}
+
+input,textarea{
+    width: 250px;
+    border: none;
+    padding-top: 30px;
+    padding-bottom:9px;
+    border-bottom: 1px solid #b1afaf;
+}
+.subject,textarea{
+    width: 530px !important;
+}
+textarea{
+  height: 130px;
+}
+button{
+    display: block;
+    background-color: #46B5D1;
+    color:white;
+    border: 1px solid #46B5D1 ;
+    padding: 13px 17px ;
+    border-radius: 5px;
+   font-size: 15px;
+   text-transform: capitalize;
+   margin-top: 20px;
+}
+button:hover{
+    background-color: #3a96ad;
+    cursor: pointer;
+}
+button:focus{
+  
+    box-shadow: 1px 0px 1px 4px #54c5e1 ;/*kolge elave etmek ucundur*/
+    background-color: #46B5D1;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-bottom: 1px solid #46B5D1;
+}

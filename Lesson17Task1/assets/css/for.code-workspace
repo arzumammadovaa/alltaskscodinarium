@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../for"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "codinarium",
+		"liveServer.settings.port": 5501
+	}
+}
